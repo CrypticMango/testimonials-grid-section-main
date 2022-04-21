@@ -91,6 +91,19 @@ img {
 	color: hsl(217, 19%, 35%, 0.500);
 }
 
+.review-text {
+	color: rgba(255, 255, 255, 0.750);
+}
+
+.review-text-dark {
+	color: hsla(217, 19%, 35%, 0.750);
+}
+
+.review-text, .review-text-dark {
+	line-height: 20px;
+	padding-right: 17px;
+}
+
 .attribution {
 	font-size: 12px;
 	text-align: center;
