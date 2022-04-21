@@ -19,12 +19,31 @@ body {
 	color: white;
 }
 
+h1 {
+	margin: 0;
+	font-size: 15px;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	border-radius: 50%;
+	flex-shrink: 0;
+	width: 30%;
+}
+
+
 .testimonial-cards {
 	margin:60px 20px;
 }
 
 .purple-card {
 	background-color: var(--moderate-violet);
+	background-image: url(/images/bg-pattern-quotation.svg);
+	background-repeat: no-repeat;
+	background-position: top right 25px;
 }
 
 .dark-grey-card {
@@ -42,12 +61,26 @@ body {
 
 .purple-card, .dark-grey-card, .navy-blue-card, .sm-white-card, .lg-white-card {
 	padding: 25px;
+	margin-bottom: 25px;
+	border-radius: 7px;
 }
 
+.picture-and-name {
+	display: flex;
+}
+
+.graduate {
+	color: rgba(255, 255, 255, 0.500);
+}
+
+.graduate-dark {
+	color: hsl(217, 19%, 35%, 0.500);
+}
 
 .attribution {
-	font-size: 11px;
+	font-size: 12px;
 	text-align: center;
+	color: var(--very-dark-blackish-blue);
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
