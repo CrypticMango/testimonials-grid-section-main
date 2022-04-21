@@ -15,7 +15,27 @@ body {
 	font-family: "Barlow Semi Condensed", sans-serif;
 	font-size: 13px;
 	margin: 0;
+	background-color: var(--light-grey);
 }
+
+.purple-card {
+	background-color: var(--moderate-violet);
+}
+
+.dark-grey-card {
+	background-color: var(--very-dark-grayish-blue);
+}
+
+.navy-blue-card {
+	background-color: var(--very-dark-blackish-blue);
+}
+
+.sm-white-card, .lg-white-card {
+	background-color: var(--white);
+}
+
+
+
 
 .attribution {
 	font-size: 11px;
