@@ -18,6 +18,10 @@ body {
 	background-color: var(--light-grey);
 }
 
+.testimonial-cards {
+	margin:60px 20px;
+}
+
 .purple-card {
 	background-color: var(--moderate-violet);
 }
@@ -34,7 +38,9 @@ body {
 	background-color: var(--white);
 }
 
-
+.purple-card, .dark-grey-card, .navy-blue-card, .sm-white-card, .lg-white-card {
+	padding: 25px;
+}
 
 
 .attribution {
