@@ -50,6 +50,12 @@ img {
 	background-position: top right 25px;
 }
 
+.daniel-border {
+	border: 2.5px solid rgba(255, 255, 255, 0.356);
+}
+	
+
+
 .dark-grey-card {
 	background-color: var(--very-dark-grayish-blue);
 }
