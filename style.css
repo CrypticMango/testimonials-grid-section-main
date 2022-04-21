@@ -16,6 +16,7 @@ body {
 	font-size: 13px;
 	margin: 0;
 	background-color: var(--light-grey);
+	color: white;
 }
 
 .testimonial-cards {
@@ -36,6 +37,7 @@ body {
 
 .sm-white-card, .lg-white-card {
 	background-color: var(--white);
+	color: var(--very-dark-grayish-blue);
 }
 
 .purple-card, .dark-grey-card, .navy-blue-card, .sm-white-card, .lg-white-card {
