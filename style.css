@@ -157,7 +157,6 @@ img {
   grid-column: span 1;
   grid-row: span 2;
   margin-bottom: 0px;
-  padding: 30px 30px 23px 30px;
 }
 
 .navy-blue-card {
@@ -173,8 +172,8 @@ img {
   margin-bottom: 0px;
 }
 
-.purple-card, .dark-grey-card, .sm-white-card, .navy-blue-card {
-  padding: 30px 30px 0px 30px;
+.purple-card, .dark-grey-card, .sm-white-card, .navy-blue-card .lg-white-card{
+  padding: 30px 30px 30px 30px;
 }
 
 .attribution {
