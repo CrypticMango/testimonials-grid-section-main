@@ -17,6 +17,7 @@ body {
   margin: 0;
   background-color: var(--light-grey);
   color: white;
+  min-height: 100vh;
 }
 
 h1 {
@@ -78,7 +79,7 @@ img {
 .lg-white-card {
   padding: 35px;
   margin-bottom: 25px;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .picture-and-name {
@@ -122,17 +123,27 @@ img {
 
 @media (min-width: 1440px) {
 
+  h2 {
+    padding-right: 20px;
+  }
+
+  .review-text {
+    padding-right: 10pxpx;
+  }
+
 .testimonial-cards {
   display: grid;
-  grid-template-columns: 2.9fr 2fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
   grid-template-rows: auto;
   gap: 2rem;
-  margin: 60px 150px;
+  margin: 20px 140px;
+  justify-content: center;
+  align-content: center;
 } 
 
 .purple-card {
   order: 1;
-  grid-column: 1 / 1 span;
+  grid-column: 1 / 2 span;
   margin-bottom: 0px;
 }
 
@@ -146,11 +157,13 @@ img {
   grid-column: span 1;
   grid-row: span 2;
   margin-bottom: 0px;
+  padding: 30px 30px 23px 30px;
 }
 
 .navy-blue-card {
   order: 5;
   margin-bottom: 0px;
+  grid-column: 2 / 2 span;
 }
 
 .sm-white-card {
@@ -158,6 +171,15 @@ img {
   grid-row: 2 / 0;
   grid-column: 1 / 1;
   margin-bottom: 0px;
+}
+
+.purple-card, .dark-grey-card, .sm-white-card, .navy-blue-card {
+  padding: 30px 30px 0px 30px;
+}
+
+.attribution {
+  position: relative;
+  top: 20px;
 }
 
   /* .testimonial-cards {
