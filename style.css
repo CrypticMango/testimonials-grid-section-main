@@ -121,7 +121,13 @@ img {
 /*try to use a grid layout instead of a flex layout*/
 
 @media (min-width: 1440px) {
-  .testimonial-cards {
+
+.testimonial-cards {
+  display: grid;
+  
+}
+
+  /* .testimonial-cards {
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
@@ -152,6 +158,8 @@ img {
 	  bottom: 126px;*/
   }
 
+  /*
+
   .lg-white-card {
 	  flex-basis: 200px;
 	  order: 3;
@@ -165,5 +173,5 @@ img {
 	  /*position: absolute;
 	  bottom: 126px;
 	  left: 435px;*/
-  }
+  } 
 }
