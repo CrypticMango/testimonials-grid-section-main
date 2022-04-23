@@ -15,7 +15,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   margin: 0;
-  background-color: var(--light-grey);
+  background-color: var(--light-greyish-blue);
   color: white;
   min-height: 100vh;
 }
