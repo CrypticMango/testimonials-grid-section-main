@@ -124,7 +124,34 @@ img {
 
 .testimonial-cards {
   display: grid;
-  
+  grid-template-columns: 3fr 2fr 2fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+} 
+
+.purple-card {
+  order: 1;
+  grid-column: 1 / 1 span;
+}
+
+.dark-grey-card {
+  order: 2;
+}
+
+.lg-white-card {
+  order: 3;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.navy-blue-card {
+  order: 5;
+}
+
+.sm-white-card {
+  order: 4;
+  grid-row: 2 / 0;
+  grid-column: 1 / 1;
 }
 
   /* .testimonial-cards {
