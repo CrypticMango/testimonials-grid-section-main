@@ -119,8 +119,6 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-/*try to use a grid layout instead of a flex layout*/
-
 @media (min-width: 1440px) {
 
   h2 {
@@ -128,7 +126,7 @@ img {
   }
 
   .review-text {
-    padding-right: 10pxpx;
+    padding-right: 10px;
   }
 
 .testimonial-cards {
